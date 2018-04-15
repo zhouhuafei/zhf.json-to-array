@@ -8,7 +8,7 @@
         "codeFix": "eslint --fix --ext .js,.vue,.html ./",
         "gulp": "gulp",
         "test": "jest",
-        "precommit": "npm run codeLint"
+        "precommit": " npm run test&&npm run codeLint"
     },
     "repository": {
         "type": "git",
