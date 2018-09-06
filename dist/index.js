@@ -18,7 +18,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     }
 })('jsonToArray', function () {
     /**
-     * @description json转数组
+     * @description json对象转成数组
      * @param {Object} json - json格式的对象{}
      * */
     function jsonToArray() {
