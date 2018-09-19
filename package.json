@@ -4,8 +4,8 @@
     "description": "json对象转成数组",
     "main": "dist/index.min.js",
     "scripts": {
-        "codeLint": "eslint --ext .js,.vue,.html ./",
-        "codeFix": "eslint --fix --ext .js,.vue,.html ./",
+        "codeLint": "cross-env NODE_ENV=production eslint --ext .js,.vue,.html ./",
+        "codeFix": "cross-env NODE_ENV=production eslint --fix --ext .js,.vue,.html ./",
         "gulp": "gulp",
         "test": "jest",
         "precommit": "npm run codeLint && npm run test"
@@ -23,6 +23,7 @@
     "devDependencies": {
         "babel-eslint": "^8.0.2",
         "babel-preset-env": "^1.6.0",
+        "cross-env": "^5.2.0",
         "eslint": "^4.11.0",
         "eslint-config-standard": "^10.2.1",
         "eslint-plugin-html": "^3.2.2",
